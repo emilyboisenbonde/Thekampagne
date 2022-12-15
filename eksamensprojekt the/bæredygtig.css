@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERELLE REGLER*/
+body {
+    background-color:rgb(252, 246, 229);
+}
+
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 1px;
+    color: #CEA948;
+}
+
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size:14pt;
+    color: #CEA948;
+}
+
+p {
+    line-height: 1.3;
+    font-size: 14pt;
+    font-family: 'Arsenal', sans-serif;
+    letter-spacing: 0.7px;
+    color: #CEA948;
+}
+
+.climatecontainer{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-wrap:wrap;
+    padding-bottom: 400px;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    
+    .climatecontainer div{
+    margin-top:100px;
+    width: 500px;
+    height: 350px;
+    align-items: center;
+    flex-wrap: wrap;/*overvej flexwrap, og hvis ikke, hvad så i stedet?*/
+    text-align:left;
+    }
+
+    .workingconditioncontainer{
+        display: flex;
+        justify-content:baseline;
+        align-items: center;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        flex-wrap:wrap;
+        padding-bottom: 400px;
+        font-family: 'Open Sans', sans-serif;
+        }
+        
+        
+    .workingconditioncontainer div{
+        width: 500px;
+        height: 350px;
+        align-items: center;
+        flex-wrap: wrap;/*overvej flexwrap, og hvis ikke, hvad så i stedet?*/
+        text-align:left;
+        }   

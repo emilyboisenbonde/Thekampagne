@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERELLE REGLER*/
+body {
+    background-color:rgb(252, 246, 229);
+}
+
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 1px;
+    color: #CEA948;
+}
+
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size:14pt;
+    color: #CEA948;
+}
+
+p {
+    line-height: 1.3;
+    font-size: 14pt;
+    font-family: 'Arsenal', sans-serif;
+    letter-spacing: 0.7px;
+    color: #CEA948;
+}
+
+#aeske{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom:40px;
+}    
+
+.buycontainer{
+    margin-top:100px;
+    display: flex;
+justify-content: baseline;
+justify-content: center;
+font-family:Arial, Helvetica, sans-serif;
+/*  flex-wrap; wrap;*/
+padding-bottom:200px;
+font-family: 'Open Sans', sans-serif;
+font-style: italic;
+}
+.buycontainer div{
+    width: 350px;
+    height:60px;
+    text-align:center;
+    }
+
+.button{
+    color: #CEA948;
+    background-color: #366345;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+
+    border: 1px solid #204653;
+    transition: 0.5s;
+}

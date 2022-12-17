@@ -6,30 +6,23 @@
 
 /*GENERELLE REGLER*/
 body {
-    background-color:rgb(252, 246, 229);
+    background-color:#fefae6;
 }
 
 
 h1 {
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Fjalla One', sans-serif;
     letter-spacing: 1px;
-    color: #CEA948;
+    color: #345a33;;
 }
 
-h2 {
-    font-family: 'Playfair Display SC', serif;
-    letter-spacing: 1px;
-    font-style: italic;
-    font-size:14pt;
-    color: #CEA948;
-}
 
 p {
     line-height: 1.3;
     font-size: 14pt;
-    font-family: 'Arsenal', sans-serif;
+    font-family: 'Comfortaa', cursive;
     letter-spacing: 0.7px;
-    color: #CEA948;
+    color: #345a33;
 }
 
 #aeske{
@@ -58,16 +51,31 @@ font-style: italic;
     }
 
 .button{
+    font-weight:bolder;
+    font-family:'Comfortaa', cursive;
     color: #CEA948;
-    background-color: #366345;
-    padding: 10px 20px;
+    background-color:#345a33;
+    padding: 20px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
-    cursor: pointer;
-    border-radius: 20px;
+    border-radius: 30px;
+    border: 3px solid #345a33;
+}
 
-    border: 1px solid #204653;
-    transition: 0.5s;
+@media screen and (max-width:910px){
+    #aeske img{
+        width:350px;
+    }
+
+    .buycontainer{
+       flex-direction: column;
+       gap:100px;
+       align-items: center;
+       display: flex;
+       padding-bottom:100px;
+
+    }
+
 }

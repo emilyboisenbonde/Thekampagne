@@ -7,13 +7,12 @@ header{
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
 
-    border-bottom: 5px solid #218c74;
+
+    border-bottom: 5px solid #345a33;
     position: sticky;
     top:0px;
-    background-color:rgb(252, 246, 229);/*Juster farve*/
+    background-color:#fefae6;
 }
 
 /*logoet*/
@@ -21,14 +20,16 @@ header img{
     height: 50%;
    margin-right: 5%;
 }
-#navMobile img{
+#mobilid img{
     width:80px;
     color: #218c74;
+    margin-top:30px;
 }
 
 header a{
-    font-family: Arial, Helvetica, sans-serif;
-    color: forestgreen;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bolder;
+    color:#345a33;
     letter-spacing:1px;
 }
 
@@ -43,16 +44,15 @@ header nav{
 
 header nav a{
     text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 15 pt;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#345a33;
+    font-size:17pt;
+    font-weight:bolder;/*overvej endny tykkere*/
+    font-family: 'Comfortaa', cursive bold;
 }
 
 
 a href{
     margin-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 100px;
 }
 
@@ -70,11 +70,23 @@ header{
 #logo{ /* Logoet skal være mindre på mobil. */
     width:80px;
 }
+ /* Skjul laptopmenuen på mobil. */
+ #laptopid {
+    display:none; 
+}
 
-
+#frontimage img{
+    width:90%;
+}
 
 }
 
 /*RESPONSIV LAPTOP HEADER*/
-@media screen and (min-width:910px){}
+@media screen and (min-width:910px){
+
+#mobilid{
+        display:none;
+    }
+}    
+
 

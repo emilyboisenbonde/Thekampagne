@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERELLE REGLER*/
+body {
+    background-color:#fefae6;
+}
+
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    color: #345a33;
+}
+
+
+p {
+    line-height: 1.3;
+    font-size: 14pt;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 0.7px;
+    color: #345a33;
+}
+
+#aeske{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom:40px;
+}    
+
+.buycontainer{
+    margin-top:100px;
+    display: flex;
+justify-content: center;
+font-family:Arial, Helvetica, sans-serif;
+/*  flex-wrap; wrap;*/
+padding-bottom:200px;
+font-family: 'Open Sans', sans-serif;
+font-style: italic;
+}
+.buycontainer div{
+    width: 350px;
+    height:60px;
+    text-align:center;
+    }
+
+.button{
+    font-weight:bolder;
+    font-family:'Comfortaa', cursive;
+    color: #CEA948;
+    background-color:#345a33;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 3px solid #345a33;
+}
+
+@media screen and (max-width:910px){
+    #aeske img{
+        width:350px;
+    }
+
+    .buycontainer{
+        margin-top:50px;
+       flex-direction: column;
+       gap:100px;
+       align-items: center;
+       display: flex;
+       padding-bottom:100px;
+
+    }
+
+    .buycontainer div{
+    margin-bottom:40px;
+    }
+
+}
